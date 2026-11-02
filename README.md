@@ -1,9 +1,9 @@
 # Sandy’s Boutique & Gifts website
 
-This repository contains the editable mockup source, bundled as `sandys-boutique-site.zip`, and three standalone HTML pages in `ghl-export/` for HighLevel WordPress Custom HTML Pages.
+This private repository contains the three standalone HighLevel HTML pages at the repository root (`home.html`, `about.html`, and `contact.html`) and an archive of the editable mockup source.
 
-The mockup source is a Vite + React project. Unzip it, run `npm install`, then `npm run dev` to preview locally. Run `npm run build` to create a production build.
+Each HTML page is self-contained and under 5 MB. For HighLevel WordPress Custom HTML Pages, upload each file separately and use `/about` and `/contact` for the page slugs.
 
-The HighLevel HTML pages are self-contained and each is under 5 MB. Upload them individually; use `/about` and `/contact` as their slugs.
+To preview the editable Vite + React source, download and extract `sandys-boutique-site.zip`, open `sandys-boutique-github-upload/source/`, then run `npm install` and `npm run dev`. Run `npm run build` to create a production build. The archive also includes the HighLevel export folder.
 
-All generated boutique imagery is illustrative. The design only uses store details supplied for this mockup.
+Generated boutique imagery is illustrative; store details are limited to the facts supplied for this mockup.
